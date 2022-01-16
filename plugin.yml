@@ -1,0 +1,20 @@
+name: OnlineTime
+main: DreadyCodr\OnlineTime\Main
+version: 1.1
+api: 4.0.0
+author: ["Dready", "BestCodrEver"]
+description: Measure time spent online
+
+commands:
+ onlinetime:
+  aliases: [ot, otime]
+  description: "View how much time you've spent on the server"
+  permission: onlinetime
+
+permissions:
+ reset.onlinetime:
+  default: op
+  description: "reset"
+ onlinetime:
+  default: true
+  description: "ot"
